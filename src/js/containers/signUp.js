@@ -4,7 +4,7 @@ import SignUpBanner from '../components/signUp'
 export default class SignUp extends React.omponent{
     render(){
         return(
-            <div>
+            <div className ='signUp'>
                 <SignUpBanner />
             </div>
         )

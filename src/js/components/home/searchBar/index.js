@@ -1,3 +1,3 @@
 export default ()=>{
-    <div>mycart</div>
+    <div>my cart</div>
 }

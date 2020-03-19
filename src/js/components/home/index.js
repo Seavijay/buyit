@@ -1,3 +1,5 @@
+import '../../../css/common.css'
+
 export default ()=>{
-    <div>mycart</div>
+    <div>home</div>
 }

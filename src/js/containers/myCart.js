@@ -1,15 +1,11 @@
 import React from 'react';
-import TopBar from '../components/topBar'
-import MyCartBanner from '../components/myCartBanner'
-import Footer from'../components/footer'
+import MyCartBanner from '../components/myCart'
 
-export default class My extends React.omponent{
+export default class MyCart extends React.omponent{
     render(){
         return(
-            <div>
-                <TopBar />
+            <div className = 'myCart'>
                 <MyCartBanner />
-                <Footer />
             </div>
         )
     }

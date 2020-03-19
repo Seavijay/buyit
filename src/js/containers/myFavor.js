@@ -4,7 +4,7 @@ import MyFavorBanner from '../components/myFavor'
 export default class MyFavor extends React.omponent{
     render(){
         return(
-            <div>
+            <div className='myFavor'>
                 <MyFavorBanner />
             </div>
         )
