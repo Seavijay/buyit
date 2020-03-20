@@ -7,7 +7,7 @@ const webpack = require('webpack')
 module.exports = {
     mode: "production",
     entry: {
-        app: './src/js/index.js',
+        app: './src/index.js',
     },
     output: {
         filename: '[name].[hash].js',
@@ -21,12 +21,6 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        babelrc: false,
-                        presets: [
-                            require.resolve('@babel/preset-react'),
-                            [require.resolve('@babel/preset-env'), { modules: false }],
-                        ],
-                        plugin:['@babel/plugin-proposal-class-properties'],
                         cacheDirectory: true
                     }
                 }
@@ -57,7 +51,7 @@ module.exports = {
         new webpack.HashedModuleIdsPlugin(),
         new HtmlWebpackPlugin({
             inject: true,
-            template: path.resolve(process.cwd(), 'src/js/index.html'),
+            template: path.resolve(process.cwd(), 'src/index.html'),
             filename: 'index.html',
             minify: {
                 removeComments: true,
