@@ -1,5 +1,5 @@
 import '../../css/common.css'
 
 export default ()=>{
-    <div>my favor</div>
+    <div className='myFavor'>my favor</div>
 }

@@ -5,6 +5,7 @@ const webpack =require('webpack')
 
 module.exports = merge(common, {
   devtool: 'source-map',
+  mode: 'production',
   plugins: [
     new MinifyPlugin({}, { comments: false }),
     new webpack.DefinePlugin({

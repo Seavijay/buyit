@@ -4,44 +4,54 @@ import '../../css/topBar.css'
 
 const menuitems = [
   {
+    text: '登陆',
+    url: '/signUp',
+    submenu: []
+  },
+  {
+    text: '注册',
+    url: '/signIn',
+    submenu: []
+  },
+  {
     text: '我的买它',
-    url: 'http://qq.com',
+    url: '/',
     submenu: [
       {
         text: '已买到的宝贝',
-        url: 'http://qq.com',
+        url: '',
       },
       {
         text: '我的足迹',
-        url: 'http://qq.com',
+        url: '',
       },
     ]
   },
   {
     text: '购物车',
-    url: 'http://qq.com',
+    url: 'myCart',
     submenu: [
       {
         text: '1',
-        url: 'http://qq.com',
+        url: '',
       },
       {
         text: '2',
-        url: 'http://qq.com',
+        url: '',
       },
     ]
   },
   {
     text: '收藏夹',
-    url: 'http://qq.com',
+    url: '/myFavor',
     submenu: [
         {
             text:'我收藏的宝贝',
-            url:'http://qq.com'
+            url:''
         },
         {
             text:'我收藏的店铺',
-            url:'http://qq.com'
+            url:''
         }
     ]
   }
@@ -78,7 +88,7 @@ class TopBar extends React.Component {
 
   render() {
     return (
-      <ul>
+      <ul className='topBar'>
         {
           menuitems.map((level, index) => (
              <MenuLevel

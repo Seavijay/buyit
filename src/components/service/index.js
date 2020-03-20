@@ -1,5 +1,5 @@
 import '../../css/common.css'
 
 export default ()=>{
-    <div>service</div>
+    <div className='sevice'>service</div>
 }

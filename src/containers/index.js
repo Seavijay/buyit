@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import TopBar from '../components/topBar';
 import Home from './home';
 import Mycart from './myCart';
@@ -18,14 +18,14 @@ export default class Index extends React.Component {
       <HashRouter>
         <div>
           <TopBar />
-          <div className="middle">
+          <Switch >
             <Route exact path="/" component={Home} />
             <Route path="/signUp" component={SignUp} />
-            <Route path="/signIn" component={SignIn} />            
+            <Route path="/signIn" component={SignIn} />
             <Route path="/myCart" component={Mycart} />
             <Route path="/myFavor" component={MyFavor} />
             <Route path="/service" component={Service} />
-          </div>
+          </Switch>
           <Footer />
         </div>
       </HashRouter>

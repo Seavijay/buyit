@@ -1,5 +1,5 @@
 import '../../css/footer.css'
 
 export default ()=>{
-    <div>footer</div>
+    <div className='footer'>footer</div>
 }

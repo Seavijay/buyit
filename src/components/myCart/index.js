@@ -1,5 +1,5 @@
 import '../../css/common.css'
 
 export default ()=>{
-    <div>my cart</div>
+    <div className = 'myCart'>my cart</div>
 }
