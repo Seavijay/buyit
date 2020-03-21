@@ -10,7 +10,6 @@ import SignIn from './SignIn';
 import Footer from '../components/footer';
 
 
-window.React = React
 
 export default class Index extends React.Component {
   render() {

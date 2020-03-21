@@ -21,7 +21,14 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     options: {
-                        cacheDirectory: true
+                        cacheDirectory: true,
+                        "plugins": [
+                            ["import", {
+                                "libraryName": "antd",
+                                "libraryDirectory": "es",
+                                "style": "true" // `style: true` 会加载 less 文件
+                            }]
+                        ]
                     }
                 }
             },
@@ -37,6 +44,24 @@ module.exports = {
                     fallback: "style-loader",
                     use: "css-loader"
                 })
+            },
+            {
+                test: /\.less$/,
+                use: [{
+                    loader: 'style-loader',
+                }, {
+                    loader: 'css-loader',
+                }, {
+                    loader: 'less-loader',
+                    options: {
+                        modifyVars: {
+                            'primary-color': '#1DA57A',
+                            'link-color': '#1DA57A',
+                            'border-radius-base': '2px',
+                        },
+                        javascriptEnabled: true,
+                    }
+                }]
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,
