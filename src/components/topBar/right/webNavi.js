@@ -5,12 +5,13 @@ import SubMenu from 'antd/lib/menu/SubMenu';
 import React from 'react'
 
 const menu = (
-    <Menu>
+    <Menu >
         {
             webNavi.map((item, index) => (
                 <SubMenu
                     title={item.text}
-                    className={item.text}>
+                    className={item.text}
+                    key={item.text+index}>
                     {
                         item.subItem.map((item, index) => (
                             <Menu.Item key={item.text+index}>
