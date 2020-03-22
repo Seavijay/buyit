@@ -80,11 +80,11 @@ export const location = [
     },
     {
         text: '北美',
-        url: '/NorthAmericaNv'
+        url: '/NorthAmerica'
     },
     {
         text: '南美',
-        url: '/SouthAmeri'
+        url: '/SouthAmerica'
     },
 ]
 
