@@ -1,3 +1,3 @@
 import '../../css/common.css'
 
-export default ()=>(<div className='home'>home</div>)
+export default () => <div className="home">home</div>

@@ -1,14 +1,12 @@
-import React from 'react';
+import React from 'react'
 import MyFavorBanner from '../components/myFavor'
 
 export default class MyFavor extends React.Component {
     render() {
         return (
-            <div className='myFavor'>
+            <div className="myFavor">
                 <MyFavorBanner />
             </div>
         )
     }
-
 }
-

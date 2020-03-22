@@ -11,7 +11,7 @@ export const leftMenuItems = [
                 text: '我的足迹',
                 url: '',
             },
-        ]
+        ],
     },
     {
         text: '购物车',
@@ -25,7 +25,7 @@ export const leftMenuItems = [
                 text: '2',
                 url: '',
             },
-        ]
+        ],
     },
     {
         text: '收藏夹',
@@ -33,13 +33,13 @@ export const leftMenuItems = [
         subItem: [
             {
                 text: '我收藏的宝贝',
-                url: ''
+                url: '',
             },
             {
                 text: '我收藏的店铺',
-                url: ''
-            }
-        ]
+                url: '',
+            },
+        ],
     },
     {
         text: '联系客服',
@@ -47,44 +47,44 @@ export const leftMenuItems = [
         subItem: [
             {
                 text: '买家客服',
-                url: ''
+                url: '',
             },
             {
                 text: '卖家客服',
-                url: ''
-            }
-        ]
-    }
+                url: '',
+            },
+        ],
+    },
 ]
 
 export const location = [
     {
         text: '全球',
-        url: '/global'
+        url: '/global',
     },
     {
         text: '中国大陆',
-        url: '/ChinaMainland'
+        url: '/ChinaMainland',
     },
     {
         text: '欧洲',
-        url: '/Europe'
+        url: '/Europe',
     },
     {
         text: '日本',
-        url: '/Japen'
+        url: '/Japen',
     },
     {
         text: '韩国',
-        url: '/Korea'
+        url: '/Korea',
     },
     {
         text: '北美',
-        url: '/NorthAmericaNv'
+        url: '/NorthAmericaNv',
     },
     {
         text: '南美',
-        url: '/SouthAmeri'
+        url: '/SouthAmeri',
     },
 ]
 
@@ -102,9 +102,9 @@ export const webNavi = [
                 url: '/themeMarket/men',
             },
             {
-                text:'婴童',
-                url:'/themeMarket/child' ,
-              },
+                text: '婴童',
+                url: '/themeMarket/child',
+            },
             {
                 text: '内衣',
                 url: '/themeMarket/underwear',
@@ -129,12 +129,11 @@ export const webNavi = [
                 text: '珠宝',
                 url: '/themeMarket/pearl',
             },
-        ]
-
+        ],
     },
     {
-        text:'特色市场',
-        url:'/specialMarket',
+        text: '特色市场',
+        url: '/specialMarket',
         subItem: [
             {
                 text: '二手',
@@ -144,7 +143,6 @@ export const webNavi = [
                 text: '拍卖',
                 url: '/specialMarket/auction',
             },
-        ]
-
-    }
+        ],
+    },
 ]

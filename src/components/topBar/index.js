@@ -1,9 +1,18 @@
 import Right from './right'
 import Left from './left'
 
-export default ()=>(
-  <div className='topBar'>
-    <Left />
-    <Right />
-  </div>
+const TopBar = () => (
+    <div className="topBar">
+        <Left />
+        <Right />
+    </div>
 )
+
+export default TopBar
+
+// export default () => (
+//     <div className="topBar">
+//         <Left />
+//         <Right />
+//     </div>
+// )

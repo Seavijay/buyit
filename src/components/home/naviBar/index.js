@@ -1,3 +1,3 @@
-export default ()=>{
-    <div>my cart</div>
+export default () => {
+    ;<div>my cart</div>
 }
