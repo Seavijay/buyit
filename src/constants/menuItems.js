@@ -2,7 +2,7 @@ export const leftMenuItems = [
     {
         text: '我的买它',
         url: '/',
-        subItem: [
+        subItems: [
             {
                 text: '已买到的宝贝',
                 url: '',
@@ -11,12 +11,12 @@ export const leftMenuItems = [
                 text: '我的足迹',
                 url: '',
             },
-        ]
+        ],
     },
     {
         text: '购物车',
         url: '/myCart',
-        subItem: [
+        subItems: [
             {
                 text: '1',
                 url: '',
@@ -25,58 +25,58 @@ export const leftMenuItems = [
                 text: '2',
                 url: '',
             },
-        ]
+        ],
     },
     {
         text: '收藏夹',
         url: '/myFavor',
-        subItem: [
+        subItems: [
             {
                 text: '我收藏的宝贝',
-                url: ''
+                url: '',
             },
             {
                 text: '我收藏的店铺',
-                url: ''
-            }
-        ]
+                url: '',
+            },
+        ],
     },
     {
         text: '联系客服',
         url: '/sevice',
-        subItem: [
+        subItems: [
             {
                 text: '买家客服',
-                url: ''
+                url: '',
             },
             {
                 text: '卖家客服',
-                url: ''
-            }
-        ]
-    }
+                url: '',
+            },
+        ],
+    },
 ]
 
 export const location = [
     {
         text: '全球',
-        url: '/global'
+        url: '/global',
     },
     {
         text: '中国大陆',
-        url: '/ChinaMainland'
+        url: '/ChinaMainland',
     },
     {
         text: '欧洲',
-        url: '/Europe'
+        url: '/Europe',
     },
     {
         text: '日本',
-        url: '/Japen'
+        url: '/Japen',
     },
     {
         text: '韩国',
-        url: '/Korea'
+        url: '/Korea',
     },
     {
         text: '北美',
@@ -85,6 +85,7 @@ export const location = [
     {
         text: '南美',
         url: '/SouthAmerica'
+
     },
 ]
 
@@ -92,7 +93,7 @@ export const webNavi = [
     {
         text: '主题市场',
         url: '/themeMarket',
-        subItem: [
+        subItems: [
             {
                 text: '女装',
                 url: '/themeMarket/women',
@@ -102,9 +103,9 @@ export const webNavi = [
                 url: '/themeMarket/men',
             },
             {
-                text:'婴童',
-                url:'/themeMarket/child' ,
-              },
+                text: '婴童',
+                url: '/themeMarket/child',
+            },
             {
                 text: '内衣',
                 url: '/themeMarket/underwear',
@@ -129,13 +130,12 @@ export const webNavi = [
                 text: '珠宝',
                 url: '/themeMarket/pearl',
             },
-        ]
-
+        ],
     },
     {
-        text:'特色市场',
-        url:'/specialMarket',
-        subItem: [
+        text: '特色市场',
+        url: '/specialMarket',
+        subItems: [
             {
                 text: '二手',
                 url: '/specialMarket/women',
@@ -144,7 +144,6 @@ export const webNavi = [
                 text: '拍卖',
                 url: '/specialMarket/auction',
             },
-        ]
-
-    }
+        ],
+    },
 ]

@@ -22,13 +22,6 @@ module.exports = {
                     loader: 'babel-loader',
                     options: {
                         cacheDirectory: true,
-                        "plugins": [
-                            ["import", {
-                                "libraryName": "antd",
-                                "libraryDirectory": "es",
-                                "style": "true" // `style: true` 会加载 less 文件
-                            }]
-                        ]
                     }
                 }
             },
